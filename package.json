@@ -1,6 +1,6 @@
 {
   "name": "ip-kornik",
-  "homepage": "https://makar92.github.io/ip-cornik",
+  "homepager": "https://makar92.github.io/ip-cornik",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
