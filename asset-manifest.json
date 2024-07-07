@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/ip-cornik/static/js/main.b685897c.js",
+    "index.html": "/ip-cornik/index.html",
+    "main.b685897c.js.map": "/ip-cornik/static/js/main.b685897c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b685897c.js"
+  ]
+}
