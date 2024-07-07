@@ -1,0 +1,46 @@
+.userCard {
+  width: 288px;
+  height: 138px;
+  padding: 16px 20px;
+
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background: rgba(48, 45, 45, 0.34);
+  border: 1px solid #294340;
+}
+
+.header {
+  margin: 0px 0px 16px 0px;
+
+  display: flex;
+  column-gap: 20px;
+}
+.image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.name {
+  margin: 0px 0px 2px 0px;
+
+  color: #F2F2F2;
+  @include text(18px, 600, 1.333);
+}
+
+.chanel {
+  color: #F2F2F266;
+  @include text(16px, 500, 1.25);
+}
+
+.text {
+  color: #F2F2F2;
+  @include text(18px, 400, 1.15);
+}

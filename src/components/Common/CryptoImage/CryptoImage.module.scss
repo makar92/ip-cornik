@@ -1,0 +1,12 @@
+.cryptoImage {
+  width: 312px;
+
+  @media (max-width: 767px) {
+    width: 170px;
+  }
+  
+  & img {
+    width: 100%;
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,50 @@
+.storeButton {
+  min-width: 132px;
+  padding: 8px 12px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  color: #F2F2F266;
+  border-radius: 12px;
+  backdrop-filter: blur(28px);
+  background: rgba(48, 45, 45, 0.34);
+
+  @media (max-width: 767px) {
+    padding: 4px 8px;
+    min-width: 100px;
+  }
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+
+  @media (max-width: 767px) {
+    width: 20px;
+    height: 20px;
+  }
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.underText {
+  @include text(12px, 400, 100%);
+
+  @media (max-width: 767px) {
+    @include text(10px, 400, 100%);
+  }
+}
+
+.text {
+  @include text(20px, 400, 1.2);
+
+  @media (max-width: 767px) {
+    @include text(14px, 400, 1.2);
+  }
+}

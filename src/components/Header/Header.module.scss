@@ -1,0 +1,35 @@
+.header {
+  max-width: 76.6%;
+
+  @media (max-width: 992px) {
+    max-width: 100%;
+  }
+}
+
+.text {
+  @include text(84px, 700, 120%);
+  color: #F2F2F2;
+  text-transform: uppercase;
+  word-wrap: break-word;
+
+  @media (max-width: 992px) {
+    text-align: center;
+  }
+
+  @media (max-width: 767px) {
+    @include text(40px, 700, 108%);
+  }
+}
+
+.lastLine {
+  background: linear-gradient(to right,
+      #7C6FCF 0%,
+      #74AEAA 50%,
+      #6FCF97 100%
+    );
+  /* Применяем текстовую заливку, для этого используем CSS-свойство фона */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Устанавливаем прозрачность текста, чтобы текст можно было увидеть */
+  color: transparent;
+}

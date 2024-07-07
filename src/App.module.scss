@@ -1,0 +1,90 @@
+.App {
+  margin: 0px auto;
+  max-width: 1444px;
+  width: 100%;
+  padding: 48px 62px 32px;
+
+  @media (max-width: 767px) {
+    padding: 20px 16px 12px;
+  }
+}
+
+.header {
+  position: relative;
+  z-index: 3;
+  margin: 0px 0px 44px 0px;
+  
+  @media (max-width: 767px) {
+    margin: 0px 0px 20px 0px;
+  }
+}
+.main {
+  position: relative;
+  z-index: 3;
+  margin: 0px 0px 76px 0px;
+
+  @media (max-width: 767px) {
+    margin: 0px 0px 18px 0px;
+  }
+}
+
+.footer {
+  position: relative;
+  z-index: 3;
+}
+
+.cryptoImages {
+  position: absolute;
+  top: 0;
+  right: 62px;
+  z-index: 1;
+
+  @media (max-width: 767px) {
+    right: 5%;
+  }
+}
+
+.cryptoImage {
+
+  &:nth-child(1) {
+    position: relative;
+  }
+
+  &:nth-child(2) {
+    position: relative;
+    top: -92px;
+    right: 220px;
+
+    @media (max-width: 428px) {
+      right: 80%;
+    }
+  }
+
+  &:nth-child(3) {
+    position: relative;
+    top: -184px;
+  }
+}
+
+.userCards {
+  position: absolute;
+  top: 172px;
+  right: 78px;
+  z-index: 2;
+  
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 24px;
+
+  @media (max-width: 1294px) {
+    display: none;
+  }
+}
+
+.userCard {
+
+  &:nth-child(2n) {
+    position: relative;
+    right: 112px;
+  }
+}
